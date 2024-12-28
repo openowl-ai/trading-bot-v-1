@@ -1,0 +1,28 @@
+{
+  "name": "@solana-trading-bot/api",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "netlify dev",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@fastify/cors": "^8.4.1",
+    "@fastify/env": "^4.3.0",
+    "@fastify/jwt": "^7.2.3",
+    "@jup-ag/core": "^4.0.0-beta.20",
+    "@solana/web3.js": "^1.87.6",
+    "telegraf": "^4.15.3",
+    "@netlify/functions": "^2.4.0",
+    "encoding": "^0.1.13",
+    "node-fetch": "^3.3.2",
+    "zod": "^3.22.4",
+    "@dopplerhq/node-sdk": "^1.0.0",
+    "bcryptjs": "^2.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.9.0",
+    "@types/bcryptjs": "^2.4.6",
+    "typescript": "^5.2.2",
+    "netlify-cli": "^17.5.1"
+  }
+}

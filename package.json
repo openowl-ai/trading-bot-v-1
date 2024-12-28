@@ -1,0 +1,22 @@
+{
+  "name": "solana-trading-bot",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "start": "turbo run start",
+    "lint": "turbo run lint"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "netlify-cli": "^17.38.1",
+    "ts-node-dev": "^2.0.0",
+    "turbo": "^1.10.16",
+    "typescript": "^5.7.2"
+  }
+}
